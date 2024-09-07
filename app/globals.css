@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-size: 14px;
+}
+
+.main {
+  overflow-y: scroll !important;
+  padding-right: 0px !important;
+  margin-top: 0px;
+}
