@@ -2,7 +2,7 @@ import Header from '@/components/Header'
 import Success from '@/components/Success'
 import React from 'react'
 
-const page = () => {
+const SuccessPage = () => {
     return (
         <div>
             <Header />
@@ -11,4 +11,4 @@ const page = () => {
     )
 }
 
-export default page
+export default SuccessPage

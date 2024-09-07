@@ -17,15 +17,15 @@ const HomePage = () => {
       <Image style={{ maskImage: "linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)" }} src={"https://images-eu.ssl-images-amazon.com/images/G/31/img24hp/urec/hero/Under1499_Tallhero_3000x1200._CB568928188_.jpg"} width={10000} height={1000} alt='' />
       <div className='w-[90%] mx-auto grid grid-cols-4 gap-2 relative -top-72'>
         {
-          mensProducts.map((el) => (
-            <div>
+          mensProducts.map((el,i) => (
+            <div key={i}>
               <CategoryWiseProduct data={el} />
             </div>
           ))
         }
         {
-          womensProducts.map((el) => (
-            <div>
+          womensProducts.map((el,i) => (
+            <div key={i}>
               <CategoryWiseProduct data={el} />
             </div>
           ))

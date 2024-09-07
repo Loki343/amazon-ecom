@@ -8,8 +8,8 @@ const SingleProduct = ({ singleProduct }) => {
         <div className='w-[90%] mx-auto mt-10'>
             <div className='flex justify-between'>
 
-                {singleProduct.map((el) => (
-                    <div className='flex'>
+                {singleProduct.map((el,i) => (
+                    <div className='flex' key={i}>
                         <div className='flex'>
                             <div className='bg-gray-100 h-fit'>
                                 <Image src={el.image} width={200} height={200} alt={el.title} className='mix-blend-multiply p-4' />

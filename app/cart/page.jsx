@@ -2,7 +2,7 @@ import Cart from '@/components/Cart'
 import Header from '@/components/Header'
 import React from 'react'
 
-const page = () => {
+const CartPage = () => {
     return (
         <div>
             <Header />
@@ -11,4 +11,4 @@ const page = () => {
     )
 }
 
-export default page
+export default CartPage

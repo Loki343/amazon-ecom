@@ -74,9 +74,9 @@ const Checkout = () => {
                         <div className='flex justify-between'>
                             <h1 className='font-bold text-lg'>2. Items and delivery </h1>
                         </div>
-                        {cart.map((el) => {
+                        {cart.map((el,i) => {
                             return (
-                                <div className='my-4'>
+                                <div className='my-4' key={i}>
                                     <div className='flex'>
                                         <Image src={el.image} width={100} height={100} alt='...' />
                                         <div className='ml-4'>
