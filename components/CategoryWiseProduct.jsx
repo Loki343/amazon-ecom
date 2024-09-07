@@ -20,11 +20,11 @@ const CategoryWiseProduct = ({ data }) => {
     }, [])
 
     const handleClick = () => {
-        if (user.user) {
+        // if (user.user) {
             dispatch(addToCart(data))
-        } else {
-            alert("Please login first!")
-        }
+        // } else {
+        //     alert("Please login first!")
+        // }
     }
     return (
         <div className='border border-gray-300 p-2 bg-white'>

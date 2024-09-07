@@ -17,11 +17,11 @@ const AddToCartContainer = ({ product }) => {
         getUserData()
     }, [])
     const handleAddToCart = () => {
-        if(user.user){
+        // if(user.user){
             dispatch(addToCart(product))
-        }else{
-            alert("Please login first!")
-        }
+        // }else{
+        //     alert("Please login first!")
+        // }
     }
     return (
         <div className='border border-gray-300 rounded-md h-fit text-sm'>
